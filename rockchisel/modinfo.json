@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "rockchisel",
+    "name": "Rock Chisel",
+    "authors": [
+        "Crupette"
+    ],
+    "description": "A new tool that makes quarrying for stones/bricks easier.",
+    "version": "1.0.2",
+    "dependencies": {
+        "game": "",
+        "toolmodelib": ""
+    }
+}
