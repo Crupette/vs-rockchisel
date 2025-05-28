@@ -14,7 +14,6 @@ namespace RockChisel {
             api.RegisterToolMode("rockchisel:smooth", typeof(ToolModeRockChiselSmooth));
             api.RegisterToolMode("rockchisel:split", typeof(ToolModeRockChiselSplit));
             api.RegisterToolMode("rockchisel:brick", typeof(ToolModeRockChiselBrick));
-            api.RegisterToolModeGroup("rockchisel:item-rockchisel", "rockchisel:relieve", "rockchisel:smooth", "rockchisel:split", "rockchisel:brick");
         }
     }
 }

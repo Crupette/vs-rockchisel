@@ -10,10 +10,8 @@ using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
 
 namespace RockChisel;
-public class ItemRockChisel : ItemWithModes
+public class ItemRockChisel : Item
 {
-    public override AssetLocation Group => "rockchisel:item-rockchisel";
-
     public override float OnBlockBreaking(IPlayer player, BlockSelection blockSel, ItemSlot itemslot, float remainingResistance, float dt, int counter)
     {
         EntityAgent byEntity = player.Entity;

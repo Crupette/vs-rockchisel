@@ -2,6 +2,7 @@
     "code": "chisel-rock",
     "class": "rockchisel.ItemRockChisel",
     "attributes": {
+		"toolmodegroup": "item-rockchisel",
         heldItemPitchFollow: 1,
 		alwaysPlayHeldReady: true,
 		handbook: {
